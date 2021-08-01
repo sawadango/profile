@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "dev": "sass --watch --style=compressed scss/main.scss:css/style.css & reload -b",
+    "compile:sass": "sass --watch --style=compressed scss/main.scss:css/style.css",
+    "watch": "reload -b"
+  },
+  "devDependencies": {
+    "reload": "^3.2.0",
+    "sass": "^1.37.0"
+  }
+}
